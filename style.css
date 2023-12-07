@@ -1,0 +1,39 @@
+
+h1, h2, a{
+    font-size: 1.5em;
+    margin: 2em;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover{
+    color: #876345;
+}
+
+img{
+    width: 20em;
+    margin: 1em; 
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #b69070;
+    }
+    
+.pre, .dia, .cerimonia, .festa, .lua{
+    flex-grow: 1;
+    background-color: #876345;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+
+}
+
+.dia, .festa{
+    background-color: #b69070;
+}
+
